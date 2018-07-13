@@ -11,7 +11,12 @@
             <Style x:Key="infoLabelStyle" TargetType="Label" BasedOn="{StaticResource baseLabelStyle}">
                 <Setter Property="FontAttributes" Value="Bold"></Setter>
             </Style>
-		</ResourceDictionary>
+            <Style x:Key="buttonStyle" TargetType="Button">
+                <Setter Property="BorderColor" Value="Accent"></Setter>
+                <Setter Property="BorderWidth" Value="2"></Setter>
+                <Setter Property="BorderRadius" Value="5"></Setter>
+            </Style>
+        </ResourceDictionary>
 	</Application.Resources>
 
 </Application>
