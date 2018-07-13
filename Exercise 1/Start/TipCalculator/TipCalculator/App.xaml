@@ -5,6 +5,12 @@
 
 	<Application.Resources>
 		<ResourceDictionary>
+            <Style x:Key="baseLabelStyle" TargetType="Label">
+                <Setter Property="FontSize" Value="22"></Setter>
+            </Style>
+            <Style x:Key="infoLabelStyle" TargetType="Label" BasedOn="{StaticResource baseLabelStyle}">
+                <Setter Property="FontAttributes" Value="Bold"></Setter>
+            </Style>
 		</ResourceDictionary>
 	</Application.Resources>
 

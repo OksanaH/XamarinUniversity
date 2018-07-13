@@ -8,15 +8,7 @@
     <Page.Resources>
         <ResourceDictionary>
             <Color x:Key="bgColor"></Color>
-            <Color x:Key="fgColor"></Color>
-            <Style x:Key="baseLabelStyle" TargetType="Label">
-                <Setter Property="FontSize" Value="22"></Setter>
-            </Style>
-            <Style x:Key="infoLabelStyle" TargetType="Label" BasedOn="{StaticResource baseLabelStyle}">
-                <Setter Property="FontAttributes" Value="Bold"></Setter>
-            </Style>
-            
-            
+            <Color x:Key="fgColor"></Color> 
         </ResourceDictionary>
     </Page.Resources>
     <Grid x:Name ="LayoutRoot" BackgroundColor="{DynamicResource bgColor}" Padding="10">
